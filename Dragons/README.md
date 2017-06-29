@@ -1,9 +1,22 @@
 # Dragons
 Dragons of Mugloar
 
-## About the app
-I have created an desktop application using .net core. Code is written in C#
-
 ## Running the app
-I have created executable files for different platforms (windows, mac os, linux)
-You should be able to see then in the folder ~\bin\Release\netcoreapp1.1\
+For windows users run the exe file in the Builds folder.
+For mac and linux users you need to install .net core on your pc
+Download instructions per OS type: https://www.microsoft.com/net/download/core
+
+After you install the .net core 
+You should navigate to the app folder
+And execute commands
+
+```sh
+dotnet build
+dotnet run
+```
+It should run the app. 
+
+
+
+
+
